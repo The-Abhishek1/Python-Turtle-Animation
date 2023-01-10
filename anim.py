@@ -22,6 +22,7 @@ delay(0)
 speed(0)
 ht()
 sleep(4)
+
 for i in colors:
   color(i)
   for i in range(360):
@@ -33,4 +34,5 @@ for i in colors:
     t[1].fd(2*x)
     t[1].lt(2)
     goto(t[1].pos())
+
 done()
